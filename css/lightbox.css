@@ -1,0 +1,57 @@
+﻿#lightbox {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 500px;
+	height: auto; 
+	margin-left: -250px;
+	background: #fff;
+	z-index: 1001;
+	display: none;
+}
+#lightbox-shadow {
+	position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background:black;
+    text-align:center;
+	display: none;
+	filter: alpha(opacity=90); /*especifica la transparencia con internet explorer 8*/
+	-moz-opacity = 0.9; /*especifica la transparencia con mozilla*/
+	-khtml-opacity = 0.9; /*especifica la transparencia con zafari*/
+	opacity: 0.9 /*especifica la transparencia para los navegadores modernos*/
+}
+
+#lightbox p {
+    text-align:right; 
+    color:black; 
+    margin-right:20px; 
+    font-size:12px; 
+}
+
+#lightbox img {
+    box-shadow:0 0 25px #111;
+    -webkit-box-shadow:0 0 25px #111;
+    -moz-box-shadow:0 0 25px #111;
+    max-width:940px;
+}
+
+#lightbox  td{
+    text-align:center; 
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+    font-size:12px; 
+}
+
+#lightbox table img {
+    box-shadow:0 0 25px #111;
+    -webkit-box-shadow:0 0 25px #111;
+    -moz-box-shadow:0 0 25px #111;
+    max-width:940px;
+	margin-left:20px; 
+	margin-top:20px; 
+}
